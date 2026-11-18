@@ -1,0 +1,15 @@
+# Local secrets and exports
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+*.zip
+*.tar*
+.obsidian/
+.DS_Store
+private/
+secrets/
