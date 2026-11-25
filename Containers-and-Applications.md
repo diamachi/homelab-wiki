@@ -6,3 +6,6 @@ Portainer manages application stacks. Native Wings manages game containers; do n
 
 Homarr has Docker socket integration, which grants powerful host access. Keep it private. The application data filesystem is separate from Docker's image-layer storage. Existing volumes were not migrated in the documented setup.
 
+## Later chat reconciliation
+
+See [25 November changes](Changes-2026-11-25.md), [router DNS](Router-DNS.md), [applications](Application-Updates.md) and [access/retired work](Access-and-Retired-Experiments.md). These supersede older inventory statements where explicitly identified. This update used chat evidence, not a live audit.

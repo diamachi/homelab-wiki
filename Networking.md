@@ -6,3 +6,6 @@ The supplied records include SSH, Samba, Cockpit, Portainer, Home Assistant, Hom
 
 Later user output shows IPv4 forwarding enabled and Docker/libvirt chains present while UFW was inactive. That does not imply an absence of kernel firewall rules. Docker-published ports also require exposure review. Do not blindly enable a firewall or flush forwarding rules over a remote management session.
 
+## Later chat reconciliation
+
+See [25 November changes](Changes-2026-11-25.md), [router DNS](Router-DNS.md), [applications](Application-Updates.md) and [access/retired work](Access-and-Retired-Experiments.md). These supersede older inventory statements where explicitly identified. This update used chat evidence, not a live audit.

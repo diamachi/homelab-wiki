@@ -16,3 +16,6 @@ The later user observation remains unresolved. Check guest listener/firewall, cl
 
 Test the collector before editing the widget. Check its credentials and response shape privately. For disks, confirm mount, cable, power and kernel messages before permitting writes. Do not initialize existing disks or prune volumes as a first response to storage problems.
 
+## Later chat reconciliation
+
+See [25 November changes](Changes-2026-11-25.md), [router DNS](Router-DNS.md), [applications](Application-Updates.md) and [access/retired work](Access-and-Retired-Experiments.md). These supersede older inventory statements where explicitly identified. This update used chat evidence, not a live audit.

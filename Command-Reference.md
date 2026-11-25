@@ -119,3 +119,16 @@ sudo systemctl restart lab-game-metrics
 ```
 
 Restarting Wings can affect game management. Starting/stopping Windows requires the actual domain name and a deliberate choice; the screenshot's button implementation is unknown. Backup and rebuild procedures are in [18 - Recovery and Capture](Backup-and-Recovery.md); credential retrieval is in [10 - Security and Credentials](Security.md).
+
+## Added read-only checks
+
+```sh
+curl -sS --max-time 10 -o /dev/null -w '%{http_code}\n' http://HOST_IP:9999/
+curl -sS --max-time 10 -o /dev/null -w '%{http_code}\n' http://HOST_IP:8301/
+curl -sS --max-time 10 -o /dev/null -w '%{http_code}\n' http://HOST_IP:8780/
+systemctl is-active lab-speedtest.service
+sudo net conf listshares
+sudo pdbedit -L
+```
+
+The speed-test unit name is sanitized/illustrative; use the installed name locally. HTTP responses establish reachability, not authenticated application health. See [router DNS checks](Router-DNS.md). Check policy state in Tailscale administration; a posted policy is not proof it was saved. Do not paste full policy membership, credentials or server logs into public issues.

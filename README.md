@@ -13,3 +13,12 @@ Start with [Home](Home.md), [Services and ports](Services-and-Ports.md), [Servic
 Real addresses, account names, disk identifiers, private paths and credential locations have been removed or replaced with placeholders. Commands are templates: HOST_IP, GUEST_IP, ROUTER_IP, ROUTER_WAN_IP, UPSTREAM_IP, LAN_CIDR, ADMIN_USER, LAN_INTERFACE and VM_BRIDGE require local substitution. lab-prefixed names are illustrative.
 
 This is a historical documentation snapshot, not a live host audit. Unknown ports and inferred dependencies remain labeled. No secrets are included.
+
+## Update — 25 November 2026
+
+- [Changes-2026-11-25](Changes-2026-11-25.md)
+- [Router-DNS](Router-DNS.md)
+- [Application-Updates](Application-Updates.md)
+- [Access-and-Retired-Experiments](Access-and-Retired-Experiments.md)
+
+The original dashboard image is a historical edited preview, not the latest Homarr layout.

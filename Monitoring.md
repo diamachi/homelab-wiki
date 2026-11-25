@@ -8,3 +8,6 @@ The router collector uses an SSH monitoring key. The game collector uses a read-
 
 The documented HTTP collectors have no authentication and should remain on trusted networks with access restrictions. Credentials belong in protected host files, outside widget configuration. Preserve actual board exports, widget source, collector scripts and units; screenshots are not restore artifacts.
 
+## Later chat reconciliation
+
+See [25 November changes](Changes-2026-11-25.md), [router DNS](Router-DNS.md), [applications](Application-Updates.md) and [access/retired work](Access-and-Retired-Experiments.md). These supersede older inventory statements where explicitly identified. This update used chat evidence, not a live audit.

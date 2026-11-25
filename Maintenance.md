@@ -9,3 +9,7 @@ Suggested checklist; not evidence of tasks already completed:
 - Test VM and game-server startup after planned reboots.
 - After Docker/libvirt network changes, verify RDP rule order and connectivity.
 - Update private records first, then manually review a sanitized public revision.
+
+## Later chat reconciliation
+
+See [25 November changes](Changes-2026-11-25.md), [router DNS](Router-DNS.md), [applications](Application-Updates.md) and [access/retired work](Access-and-Retired-Experiments.md). These supersede older inventory statements where explicitly identified. This update used chat evidence, not a live audit.

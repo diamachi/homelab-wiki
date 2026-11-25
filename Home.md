@@ -28,3 +28,12 @@ Only publish this directory. Keep private notes, exports, screenshots, logs and 
 - [Services and ports](Services-and-Ports.md)
 - [Service interactions](Service-Interaction-Diagram.md)
 - [Commands](Command-Reference.md)
+
+## Update — 25 November 2026
+
+- [Changes-2026-11-25](Changes-2026-11-25.md)
+- [Router-DNS](Router-DNS.md)
+- [Application-Updates](Application-Updates.md)
+- [Access-and-Retired-Experiments](Access-and-Retired-Experiments.md)
+
+The original dashboard image is a historical edited preview, not the latest Homarr layout.
