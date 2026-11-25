@@ -4,9 +4,9 @@ Sanitized documentation for a low-power Linux homelab: Docker applications, game
 
 ## Dashboard
 
-![Homelab dashboard with private details hidden](assets/dashboard-redacted.png)
+![User-supplied dashboard preview](assets/dashboard-redacted.png)
 
-Privacy-edited dashboard preview. Location, personal device names, internal subnet, mount paths and identifying labels are hidden. This edited image is illustrative; the documented configuration remains the reference.
+Dashboard preview from 25 November 2026, supplied and redacted by the owner. Published as provided, without further image editing.
 
 Start with [Home](Home.md), [Services and ports](Services-and-Ports.md), [Service interaction diagram](Service-Interaction-Diagram.md) or [Command reference](Command-Reference.md).
 
@@ -21,4 +21,4 @@ This is a historical documentation snapshot, not a live host audit. Unknown port
 - [Application-Updates](Application-Updates.md)
 - [Access-and-Retired-Experiments](Access-and-Retired-Experiments.md)
 
-The original dashboard image is a historical edited preview, not the latest Homarr layout.
+The screenshot shows the redesigned preview board; displayed readings are a snapshot, not a live service-status report.
